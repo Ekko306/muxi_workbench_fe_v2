@@ -3,13 +3,9 @@ import logo from 'assets/svg/logo.svg'
 import 'Index.less'
 
 function App(): any {
-    console.log(syp)
-    interface abc {
-        abc: 123
-    }
-    var abc =123
     return (
         <div className="App">
+            <button type={'button'}>123</button>
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>

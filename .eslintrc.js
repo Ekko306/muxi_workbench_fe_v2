@@ -1,6 +1,7 @@
 module.exports = {
     parser: '@typescript-eslint/parser', //定义ESLint的解析器
     extends: [
+        'eslint:recommended',
         'plugin:react/recommended', //集成react规范
         'plugin:@typescript-eslint/recommended', //集成typescript规范，具体在tsconfig定义
         'plugin:prettier/recommended', //集成prettier规范，具体在.prettierrc.js定义
@@ -31,6 +32,8 @@ module.exports = {
         // 禁止使用 var
         'no-var': 'error',
         // 优先使用 interface 而不是 type
-        '@typescript-eslint/consistent-type-definitions': ['error', 'interface']
+        '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
+        'no-undef': 'error',
+        'react/button-has-type': 'error'
     }
 }
