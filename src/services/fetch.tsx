@@ -7,6 +7,7 @@ function App(): any {
     interface abc {
         abc: 123
     }
+    var abc =123
     return (
         <div className="App">
             <header className="App-header">
