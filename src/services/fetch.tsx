@@ -3,8 +3,6 @@ import logo from 'assets/svg/logo.svg'
 import 'Index.less'
 
 function App(): any {
-    console.log(syp)
-    var abc = 123
     return (
         <div className="App">
             <header className="App-header">
