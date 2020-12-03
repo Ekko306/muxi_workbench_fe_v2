@@ -2,7 +2,8 @@ import React from 'react'
 import logo from 'assets/svg/logo.svg'
 import './index.less'
 
-function App() {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function App(): any {
     console.log(123)
     return (
         <div className="App">

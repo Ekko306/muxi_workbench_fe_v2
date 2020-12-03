@@ -33,7 +33,7 @@ module.exports = {
         'no-var': 'error',
         // 优先使用 interface 而不是 type
         '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
-        'no-undef': 'error',
+        // 'no-undef': 'error',
         'react/button-has-type': 'error'
     }
 }
