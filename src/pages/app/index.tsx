@@ -3,7 +3,7 @@ import logo from 'assets/svg/logo.svg'
 import './index.less'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-function App(): any {
+function App() {
     console.log(123)
     return (
         <div className="App">
