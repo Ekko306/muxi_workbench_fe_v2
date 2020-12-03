@@ -1,14 +1,16 @@
-import React from 'react';
-import logo from '../../assets/svg/logo.svg';
-import './index.less';
+import React from 'react'
+import logo from 'assets/svg/logo.svg'
+import './index.less'
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function App(): any {
+    console.log(123)
     return (
         <div className="App">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>
-                    Eqdit <code>src/Index.js</code> and save to reload.
+                    Edit <code>src/Index.js</code> and save to reload.
                 </p>
                 <a
                     className="App-link"
@@ -20,7 +22,7 @@ function App(): any {
                 </a>
             </header>
         </div>
-    );
+    )
 }
 
-export default App;
+export default App

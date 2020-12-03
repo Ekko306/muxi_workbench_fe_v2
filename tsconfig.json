@@ -18,7 +18,8 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "typeRoots": ["./@types/global.d.ts", "node_modules/@types"]
+    "baseUrl": "src",
+    "typeRoots": ["./@types", "node_modules/@types"]
   },
   "exclude": ["node_modules"],
   "include": [

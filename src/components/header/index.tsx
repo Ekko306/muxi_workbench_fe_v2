@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from '../../assets/svg/logo.svg';
-import './Index.less';
+import React from 'react'
+import logo from 'assets/svg/logo.svg'
+import 'Index.less'
 
 function App(): any {
     return (
@@ -20,7 +20,7 @@ function App(): any {
                 </a>
             </header>
         </div>
-    );
+    )
 }
 
-export default App;
+export default App

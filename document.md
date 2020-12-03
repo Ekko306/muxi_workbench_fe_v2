@@ -7,12 +7,15 @@
 - [typescript规范](#typescript--)
 - [less规范](#less--)
 - [git规范](#git--)
-- [疑问要商讨？](#------)
+- [疑问商讨？](#-----)
+  * [requestly??](#requestly--)
   * [木犀门户连接](#------)
+  * [travis](#travis)
+  * [docker](#docker)
+  * [server](#server)
   * [yarn test](#yarn-test)
   * [reportWebVitals](#reportwebvitals)
-  * [requestly??](#requestly--)
-- [问题记录与进度？](#--------)
+- [项目记录与进度？](#--------)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -148,8 +151,8 @@
 6. 优化选择器写法
 
 ## git规范
-[廖雪峰git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
-(学习成本vs我们项目许剧情？)
+[廖雪峰git教程](https://www.liaoxuefeng.com/wiki/896043488029600)</br>
+(学习成本vs我们项目需求？)
 
 ## 疑问商讨？
 
@@ -175,8 +178,8 @@
 暂未删除，学习/删除？
 
 ## 项目记录与进度？
-项目记录（想法池与困难与讨论）：
-http://work.muxixyz.com/project/7/doc/889
-进度记录：
-http://work.muxixyz.com/project/7/doc/890
+项目记录（想法池与困难与讨论）：</br>
+http://work.muxixyz.com/project/7/doc/889</br>
+进度记录：</br>
+http://work.muxixyz.com/project/7/doc/890</br>
 
