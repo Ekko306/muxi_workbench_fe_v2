@@ -1,0 +1,89 @@
+.status {
+  .status-list {
+    max-width: 884px;
+    margin: 0 auto;
+    font-weight: 400;
+
+    .status-item {
+      padding: 28px 30px 21px;
+
+      .information {
+        display: flex;
+        align-items: center;
+
+        .avatar {
+          width: 60px;
+          height: 60px;
+          border-radius: 100%;
+        }
+
+        .details {
+          display: flex;
+          flex-direction: column;
+          margin-left: 11px;
+
+          .name {
+            font-size: 16px;
+            max-width: 600px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+
+          .date {
+            color: #919191;
+            font-size: 12px;
+            margin-top: 4px;
+            max-width: 600px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+        }
+
+        .link {
+          font-size: 16px;
+          margin-top: -25px;
+          color: #108ee9;
+          margin-left: auto;
+        }
+      }
+
+      .content {
+        box-sizing: content-box;
+        font-size: 16px;
+        padding: 20px 32px 40px 70px;
+        cursor: pointer;
+
+        .height-constraint {
+          min-height: 90px;
+          max-height: 139px;
+          overflow: hidden;
+        }
+      }
+
+      .interaction {
+        display: flex;
+        flex-direction: row-reverse;
+
+        .feedback-comment {
+          margin-left: 30px;
+        }
+      }
+    }
+
+    .to-top {
+      position: fixed;
+      right: 44px;
+      bottom: 4px;
+    }
+  }
+
+  .status-list > * + * {
+    margin-top: 60px;
+  }
+
+  .list-loading {
+    height: calc(100vh - 242px);
+  }
+}

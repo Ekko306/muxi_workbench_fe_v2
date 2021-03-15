@@ -1,0 +1,85 @@
+@import "../../styles/common";
+
+//600 / 1440 = 0.41667
+@modal-width: 41.667vw;
+@modal-body-left-right: calc(50vw - @modal-width / 2) ;
+
+.modal {
+  .modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: @modal-backdrop-zIndex;
+  }
+
+  .modal-body {
+    position: fixed;
+    top: 30%;
+    color: #404040;
+    right: @modal-body-left-right;
+    left: @modal-body-left-right;
+    background-color: white;
+    overflow: auto;
+    z-index: @modal-body-zIndex;
+    box-shadow: @border-shadow;
+    border-radius: @radius-value;
+
+    .modal-title {
+      padding: 13px 20px 14px;
+      font-weight: 700;
+      min-height: 18px;
+    }
+
+    .modal-content {
+      padding: 20px;
+    }
+
+    hr {
+      width: 100%;
+      border: 0;
+      //background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 1));
+      background-color: #e9e9e9;
+      height: 1px;
+    }
+
+    .modal-footer {
+      padding: 10px 20px;
+      display: flex;
+      flex-direction: row-reverse;
+
+      .footer-ensure {
+        margin-left: 20px;
+        background-color: rgb(29, 76, 181);
+        color: #fff;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .modal-close {
+    cursor: pointer;
+    position: absolute;
+    top: 0.3em;
+    right: 0.3em;
+    padding: 0.3em;
+    font-size: 2em;
+    height: 1em;
+    width: 1em;
+    text-indent: 10em;
+    overflow: hidden;
+    border: 0;
+    background-color: inherit;
+  }
+
+  .modal-close::after {
+    position: absolute;
+    line-height: 0.5;
+    top: 5px;
+    left: 0.1em;
+    text-indent: 0;
+    content: "\00D7";
+  }
+}

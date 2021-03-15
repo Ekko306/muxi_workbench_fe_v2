@@ -1,0 +1,10 @@
+{
+  "originUrl": "http://work.test.muxi-tech.xyz/swagger/doc.json",
+  "templatePath": "./pontTemplate",
+  "outDir": "src/services",
+  "surrounding": "javaScript",
+  "mocks": {
+    "enable": false
+  },
+  "templateType": "fetch"
+}

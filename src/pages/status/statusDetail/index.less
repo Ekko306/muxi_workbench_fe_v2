@@ -1,0 +1,136 @@
+.status-detail {
+  padding: 43px 75px;
+
+  .status-card {
+    .header {
+      display: flex;
+
+      .inform {
+        margin-left: 16px;
+
+        .title {
+          color: #1d4cb5;
+          font-size: 24px;
+        }
+
+        .time {
+          font-size: 14px;
+        }
+      }
+
+      .operate {
+        display: flex;
+        color: #1d4cb5;
+        align-self: flex-start;
+        margin-top: 2px;
+
+        .edit {
+          margin-left: 5px;
+          cursor: pointer;
+        }
+
+        .delete {
+          margin-left: 27px;
+          cursor: pointer;
+        }
+      }
+
+      .like {
+        margin-left: auto;
+        margin-right: 25px;
+
+        .feedback-like {
+          height: 26px;
+          line-height: 26px;
+        }
+      }
+    }
+
+    .body {
+      box-sizing: content-box;
+      font-size: 16px;
+      padding: 52px;
+
+      .height-constraint {
+        min-height: 90px;
+        max-height: 139px;
+        overflow: hidden;
+      }
+    }
+
+    .newline {
+      background-color: #cccaca;
+    }
+
+    .comments-list {
+      width: 90%;
+      margin: 30px auto;
+
+      .inform {
+        display: flex;
+        align-items: center;
+
+        .name {
+          margin-left: 8px;
+          font-size: 16px;
+        }
+
+        .time {
+          margin-left: 8px;
+          font-size: 13px;
+        }
+
+        .image {
+          width: 49px;
+          height: 49px;
+          border-radius: 100%;
+        }
+      }
+
+      .content {
+        margin: 0 auto;
+        width: 85%;
+        font-size: 16px;
+        line-height: 21px;
+      }
+    }
+
+    .comment {
+      display: flex;
+      margin: 60px auto;
+      max-width: 90%;
+
+      .avatar {
+        width: 44px;
+        height: 44px;
+        border-radius: 100%;
+        margin-left: 11px;
+      }
+
+      .interact {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+
+        .text-input {
+          border-radius: 4px;
+          height: 129px;
+          font-size: 16px;
+          width: 700px;
+          border: 1px solid #1d4cb5;
+          resize: none;
+          padding: 8px 0 8px 12px;
+        }
+
+        .submit-button {
+          margin-top: 10px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+.status-load {
+  height: 576px;
+}

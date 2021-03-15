@@ -1,0 +1,165 @@
+/* ↓ markdown样式表： */
+.tinymce-editor {
+  span {
+    font-size: inherit;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 20px 0 10px;
+    -webkit-font-smoothing: antialiased;
+    word-wrap: break-word;
+  }
+
+  ul,
+  ol {
+    padding: 0;
+    padding-left: 24px;
+    margin: 0;
+  }
+
+  ul {
+    list-style: disc inside;
+  }
+
+  ol {
+    list-style: decimal inside;
+  }
+
+  li {
+    line-height: 1.6;
+    margin: 0.5em 0;
+  }
+
+  li li {
+    list-style: circle inside;
+  }
+
+  li li li {
+    list-style: square inside;
+  }
+
+  li ol li {
+    list-style: upper-roman inside;
+  }
+
+  li ol li ol li {
+    list-style: lower-roman inside;
+  }
+
+  p,
+  ul,
+  ol {
+    font-size: 16px;
+    line-height: 1.6;
+    word-wrap: break-word;
+  }
+
+  code,
+  pre {
+    word-wrap: break-word;
+    border-radius: 3px;
+    background-color: #f7f7f7;
+    color: inherit;
+  }
+
+  code {
+    font-family: Consolas, Monaco, Andale Mono, monospace;
+    margin: 0 2px;
+    color: #666555;
+  }
+
+  code span {
+    color: inherit;
+  }
+
+  pre {
+    word-wrap: break-word;
+    line-height: 1.5em;
+    padding: 6px 10px;
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+  }
+
+  pre > code {
+    border: 0;
+    display: inline;
+    max-width: initial;
+    padding: 0;
+    margin: 0;
+    overflow: initial;
+    line-height: inherit;
+    font-size: 0.85em;
+    background: 0 0;
+  }
+
+  aside {
+    display: block;
+    float: right;
+    width: 390px;
+  }
+
+  blockquote {
+    border-left: 0.5em solid #eee;
+    padding: 0 0 0 2em;
+    margin-left: 0;
+  }
+
+  blockquote cite {
+    font-size: 14px;
+    line-height: 20px;
+    color: #bfbfbf;
+  }
+
+  blockquote cite ::before {
+    content: "\2014 \00A0";
+  }
+
+  blockquote p {
+    color: #666;
+  }
+
+  hr {
+    text-align: left;
+    color: #999;
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+  }
+
+  table {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    min-width: 300px;
+  }
+
+  table tr:hover {
+    background: #fbf8e9;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+
+  table td {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+
+  table th {
+    background-color: #e2e2e2;
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    padding: 7px;
+  }
+}

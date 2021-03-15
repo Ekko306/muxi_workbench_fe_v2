@@ -1,7 +1,7 @@
 # 木犀工作台2.0
 
 ## 开发者必读
-项目开发者必读另一[规范文档文件](document.md)
+项目开发者必读另一[规范文档文件](developer.md)
 
 ## Getting Started with Create React Index
 先保留CRA预留注释，有助于学习英文文档与webpack原理自定义配置，学习周期结束后删除
